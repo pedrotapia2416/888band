@@ -1,0 +1,169 @@
+/*Clase para todo el documento*/
+
+body{
+    background-image: url(../images/bg.jpg) !important;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black!important;
+      padding: 5px;
+
+
+}
+
+header{
+  background-image: url(../images/bgheader.jpg) !important;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+  *{
+      font-family: 'Girassol', cursive;
+      text-align: center;
+      color: white;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 2px;
+    }
+  a:hover {
+      background-color: rgba(45, 45, 45, 0.10);
+      border-radius: 5px;
+    }
+  a:active {
+      background-color: black !important;
+      border-radius: 5px;
+    }
+  i{
+      font-size: 25px;
+      color: white;
+    }
+    .black{
+      color: black;
+      height: auto;
+
+    }
+
+  /*Clase para el HEADER*/
+  header{
+    position: absolute;
+    padding: 2px;
+    margin-top: 20px;
+  }
+  .img-logo{
+    height: 100%;
+  }
+   .logo img{
+     max-height: 100%;
+     width:auto;
+   }
+
+  /*Clase para el MENU-NAV*/
+  .nav-link:hover{
+    color: white;
+  }
+  .menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .menu-nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .nav-link{
+    color: white;
+  }
+  .nav{
+    background-color: rgba(49, 112, 185, 0.1);
+    border-radius: 5px;
+  }
+
+  /*Clase para los ARTICULOS*/
+  .img-article{
+    width: auto;
+    height: auto;
+  }
+  img{
+    width: 100%;
+    padding: 15px;
+  }
+  .noticias{
+    padding: 5px;
+  }
+
+  /*Clase para el BUSCADOR*/
+  .busqueda li{
+    list-style: none;
+  }
+  .buscador{
+    margin-left: 35px;
+    background-color: rgba(45, 45, 45, 0.95);
+  }
+  .buscador li{
+    margin-left: 5px;
+  }
+  .bglogo{
+    background-image: url(../images/bglogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+  }
+  .post blockquote{
+    width: 100%;
+    padding: 2px;
+    margin-right: 20px;
+
+  }
+  .post{
+    max-width: 100%;
+  }
+.proximo-evento{
+  background-color: rgba(49, 112, 185, 0.1);
+}
+.spotify{
+  background-color: rgba(49, 112, 185, 0.1);
+
+}
+.contact-section{
+  background-color: rgba(49, 112, 185, 0.1);
+
+}
+
+  .contact-section .contact-form {
+    width: 100%;
+    background-color: rgba(49, 112, 185, 0.1);
+   }
+
+    .post-insta{
+      border: 2px solid white;
+      background-image: url(../images/bglogo.png)!important;
+      width: 100%;
+    }
+
+    footer{
+      background-color: grey;
+    }
+/*Clase para dispositivos medianos*/
+@media (max-width: 991px) {
+	.busqueda {
+		display: none;
+	}
+  .menu-nav .nav{
+    display: list-item;
+  list-style-position: inside;
+  }
+
+
+
+
+	.logo {
+		margin: 0px 10px;
+		text-align: center;
+	}
+
+
+}
